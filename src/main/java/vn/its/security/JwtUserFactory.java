@@ -1,12 +1,12 @@
 package vn.its.security;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import vn.its.model.security.Authority;
 import vn.its.model.security.User;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 public final class JwtUserFactory {
 

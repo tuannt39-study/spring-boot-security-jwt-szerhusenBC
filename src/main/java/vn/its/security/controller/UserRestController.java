@@ -1,7 +1,5 @@
 package vn.its.security.controller;
 
-import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import vn.its.security.JwtTokenUtil;
 import vn.its.security.JwtUser;
+
+import javax.servlet.http.HttpServletRequest;
 
 @RestController
 public class UserRestController {
